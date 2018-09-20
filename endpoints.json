@@ -1,0 +1,114 @@
+{
+    "endpoints": [
+        {
+            "Name": "Portal",
+            "EnvironmentPropertyName": "ManagementPortalUrl",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "portal.azure.com" },
+                { "Name": "AzureUSGovernment", "uri": "portal.azure.us" },
+                { "Name": "AzureChinaCloud", "uri": "portal.azure.cn" },
+                { "Name": "AzureGermanCloud", "uri": "portal.microsoftazure.de" }
+            ]
+        },
+        {
+            "Name": "ActiveDirectoryService",
+            "EnvironmentPropertyName": "ActiveDirectoryServiceEndpointResourceId",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "management.core.windows.net" },
+                { "Name": "AzureUSGovernment", "uri": "management.core.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "management.core.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "management.core.cloudapi.de" }
+            ] 
+        },
+        {
+            "Name": "ActiveDirectoryAuth",
+            "EnvironmentPropertyName": "ActiveDirectoryAuthority",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "login.microsoftonline.com" },
+                { "Name": "AzureUSGovernment", "uri": "login.microsoftonline.us" },
+                { "Name": "AzureChinaCloud", "uri": "login.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "login.microsoftonline.de" }
+            ]
+        },
+        {
+            "Name": "Graph",
+            "EnvironmentPropertyName": "GraphUrl",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "graph.windows.net" },
+                { "Name": "AzureUSGovernment", "uri": "graph.windows.net" },
+                { "Name": "AzureChinaCloud", "uri": "graph.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "graph.cloudapi.de" }
+            ]
+        },
+        {
+            "Name": "AzureApi",
+            "EnvironmentPropertyName": "ServiceManagementUrl",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "management.azure.com" },
+                { "Name": "AzureUSGovernment", "uri": "management.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "management.core.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "management.core.cloudapi.de" }
+            ]
+        },
+        {
+            "Name": "SQL",            
+            "EnvironmentPropertyName": "SqlDatabaseDnsSuffix",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "database.windows.net" },
+                { "Name": "AzureUSGovernment", "uri": "database.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "database.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "database.cloudapi.de" }
+            ]
+        },
+        {
+            "Name": "Storage",
+            "EnvironmentPropertyName": "StorageEndpointSuffix",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "core.windows.net" },
+                { "Name": "AzureUSGovernment", "uri": "core.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "core.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "core.cloudapi.de" }
+            ]
+        },
+        {
+            "Name": "TrafficManager",
+            "EnvironmentPropertyName": "TrafficManagerDnsSuffix",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "trafficmanager.net" },
+                { "Name": "AzureUSGovernment", "uri": "usgovtrafficmanager.net" },
+                { "Name": "AzureChinaCloud", "uri": "trafficmanager.cn" },
+                { "Name": "AzureGermanCloud", "uri": "azuretrafficmanager.de" }
+            ]
+        },
+        {
+            "Name": "Keyvault",
+            "EnvironmentPropertyName": "AzureKeyVaultDnsSuffix",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "vault.azure.net" },
+                { "Name": "AzureUSGovernment", "uri": "vault.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "vault.azure.cn" },
+                { "Name": "AzureGermanCloud", "uri": "vault.microsoftazure.de" }
+            ]
+        },
+        {
+            "Name": "ServiceBus",  
+            "EnvironmentPropertyName": null,          
+            "uris": [
+                { "Name": "AzureCloud", "uri": "servicebus.windows.net" },
+                { "Name": "AzureUSGovernment", "uri": "servicebus.usgovcloudapi.net" },
+                { "Name": "AzureChinaCloud", "uri": "servicebus.chinacloudapi.cn" },
+                { "Name": "AzureGermanCloud", "uri": "servicebus.cloudapi.de" }
+            ]
+        },
+        {
+            "Name": "Gallery",
+            "EnvironmentPropertyName": "GalleryUrl",                   
+            "uris": [
+                { "Name": "AzureCloud", "uri": "gallery.azure.com" },
+                { "Name": "AzureUSGovernment", "uri": "gallery.azure.us" },
+                { "Name": "AzureChinaCloud", "uri": "gallery.azure.com" },
+                { "Name": "AzureGermanCloud", "uri": "gallery.azure.com" }
+            ]
+        }
+    ]
+}

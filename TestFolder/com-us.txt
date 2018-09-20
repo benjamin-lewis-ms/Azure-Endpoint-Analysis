@@ -1,0 +1,25 @@
+This file contains an enpoint to azure commercial:
+Portal : @{Name=AzureCloud; uri=portal.azure.com}
+ActiveDirectoryService : @{Name=AzureCloud; uri=management.core.windows.net}
+ActiveDirectoryAuth : @{Name=AzureCloud; uri=login.microsoftonline.com}
+Graph : @{Name=AzureCloud; uri=graph.windows.net}
+AzureApi : @{Name=AzureCloud; uri=management.azure.com}
+SQL : @{Name=AzureCloud; uri=database.windows.net}
+Storage : @{Name=AzureCloud; uri=core.windows.net}
+TrafficManager : @{Name=AzureCloud; uri=trafficmanager.net}
+Keyvault : @{Name=AzureCloud; uri=vault.azure.net}
+ServiceBus : @{Name=AzureCloud; uri=servicebus.windows.net}
+Gallery : @{Name=AzureCloud; uri=gallery.azure.com}
+
+and also US Gov:
+Portal : @{Name=AzureUSGovernment; uri=portal.azure.us}
+ActiveDirectoryService : @{Name=AzureUSGovernment; uri=management.core.usgovcloudapi.net}
+ActiveDirectoryAuth : @{Name=AzureUSGovernment; uri=login.microsoftonline.us}
+Graph : @{Name=AzureUSGovernment; uri=graph.windows.net}
+AzureApi : @{Name=AzureUSGovernment; uri=management.usgovcloudapi.net}
+SQL : @{Name=AzureUSGovernment; uri=database.usgovcloudapi.net}
+Storage : @{Name=AzureUSGovernment; uri=core.usgovcloudapi.net}
+TrafficManager : @{Name=AzureUSGovernment; uri=usgovtrafficmanager.net}
+Keyvault : @{Name=AzureUSGovernment; uri=vault.usgovcloudapi.net}
+ServiceBus : @{Name=AzureUSGovernment; uri=servicebus.usgovcloudapi.net}
+Gallery : @{Name=AzureUSGovernment; uri=gallery.azure.us}
